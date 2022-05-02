@@ -1,16 +1,14 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "foodconfig",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Food Item Config",
+  "description": "Lets you configure food values",
   "authors": [
-    "Me!"
+    "Linguardium"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
   "license": "CC0-1.0",
@@ -19,20 +17,17 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "mod.linguardium.foodconfig.FoodConfig"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "foodconfig.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.13.3",
     "fabric": "*",
-    "minecraft": "~1.18.2",
+    "minecraft": "1.18.X",
     "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
