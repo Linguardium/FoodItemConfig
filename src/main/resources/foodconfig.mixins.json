@@ -4,10 +4,9 @@
   "package": "mod.linguardium.foodconfig.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "FoodComponentAccessor"
+    "ItemAccessor"
   ],
   "client": [
-    "ItemAccessor"
   ],
   "injectors": {
     "defaultRequire": 1
