@@ -1,9 +1,6 @@
-# Fabric Example Mod
+# Food Item Config
 
-## Setup
+Allows item customization to change food components. Does not remove status effects from food (but can add them)
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+Launch the game once to generate an example config.
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
